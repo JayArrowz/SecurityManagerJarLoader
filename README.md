@@ -5,10 +5,10 @@ Example Policy File:
 
 ```json
 {
- "mainArgs": [
-  "test",
-  "test1",
- ],
+	"mainArgs": [
+		"test",
+		"test1",
+	],
 	"allowedFiles": [
 		{"key": "{user.home}/runewild/-", "value": "read,write,delete,execute"},
 		{"key": "{user.home}/runewild/", "value": "read,write,delete,execute"},
