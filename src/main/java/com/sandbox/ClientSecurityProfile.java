@@ -1,8 +1,9 @@
+package com.sandbox;
+
 import com.github.marceloaguiarr.valkyrie.Valkyrie;
 import com.github.marceloaguiarr.valkyrie.profiles.SecurityProfile;
 
 import java.io.FilePermission;
-import java.net.InetAddress;
 import java.net.SocketPermission;
 import java.net.URLPermission;
 import java.security.PermissionCollection;

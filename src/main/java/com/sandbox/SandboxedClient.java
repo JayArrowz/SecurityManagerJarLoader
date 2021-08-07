@@ -1,3 +1,5 @@
+package com.sandbox;
+
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.github.marceloaguiarr.valkyrie.Valkyrie;
 import com.github.marceloaguiarr.valkyrie.enums.SecurityManagers;
@@ -10,12 +12,8 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
 import java.net.*;
-import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.jar.JarFile;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-import java.util.stream.Stream;
 
 public class SandboxedClient {
     private static ClientSecurityProfile pluginSecurityProfile;
