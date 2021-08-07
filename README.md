@@ -10,8 +10,8 @@ Example Policy File:
 		"test1",
 	],
 	"allowedFiles": [
-		{"key": "{user.home}/runewild/-", "value": "read,write,delete,execute"},
-		{"key": "{user.home}/runewild/", "value": "read,write,delete,execute"},
+		{"key": "{user.home}/abc/-", "value": "read,write,delete,execute"},
+		{"key": "{user.home}/abc/", "value": "read,write,delete,execute"},
 		{"key": "{user.home}/.androidid/", "value": "read,write,delete"},
 		{"key": "{user.home}/.androidid/-", "value": "read,write,delete"},
 		{"key": "{user.home}/jagex_cl_oldschool_version.dat", "value": "read,write,delete"},
@@ -20,12 +20,12 @@ Example Policy File:
 		{"key": "C:/Users/Public/AppData/windll32.dat", "value": "read,write,delete"}
 	],
 	"socketPermissions": [
-		{"key": "www.runewild.com", "value": "connect,resolve"},
-		{"key": "download.runewild.com", "value": "connect,resolve"},
-		{"key": "host141.runewild.com", "value": "connect,resolve"}
+		{"key": "www.abc.com", "value": "connect,resolve"},
+		{"key": "download.abc.com", "value": "connect,resolve"},
+		{"key": "host141.abc.com", "value": "connect,resolve"}
 	],
 	"urlPermissions": [
-		{"key": "https://www.runewild.com/download/RuneWild.jar", "value": "*:*"}
+		{"key": "https://www.abc.com/download/abc.jar", "value": "*:*"}
 	],
 	"propertyPermissions": [
 		{"key": "user.home", "value": "read"},
@@ -38,6 +38,6 @@ Example Policy File:
 		{"key": "exitVM", "value": "read"},
 		{"key": "createClassLoader", "value": "read"}
 	],
-	"jarUrl": "https://www.runewild.com/download/RuneWild.jar"
+	"jarUrl": "https://www.abc.com/download/abc.jar"
 }
 ```
